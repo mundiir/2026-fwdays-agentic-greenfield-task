@@ -1,0 +1,15 @@
+{
+  "name": "@kamerton/bot",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Telegram bot surface (grammY, long polling — NFR-LOCAL-01)",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@kamerton/agent": "*",
+    "@kamerton/calendar": "*",
+    "@kamerton/db": "*",
+    "@kamerton/lib": "*",
+    "grammy": "^1.39.3"
+  }
+}

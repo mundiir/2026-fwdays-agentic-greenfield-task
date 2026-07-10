@@ -1,0 +1,766 @@
+{
+  "generatedBy": "scripts/check-traceability.mjs",
+  "requirements": {
+    "FR-INTAKE-01": "MVP",
+    "FR-INTAKE-02": "MVP",
+    "FR-INTAKE-03": "Dropped",
+    "FR-INTAKE-04": "Dropped",
+    "FR-INTAKE-05": "Dropped",
+    "FR-INTAKE-06": "MVP",
+    "FR-INTAKE-07": "MVP",
+    "FR-INTAKE-08": "MVP",
+    "FR-GUARD-04": "MVP",
+    "FR-GUARD-05": "MVP",
+    "FR-FAQ-01": "MVP",
+    "FR-FAQ-02": "MVP",
+    "FR-KB-01": "MVP",
+    "FR-KB-02": "MVP",
+    "FR-KB-03": "MVP",
+    "FR-KB-04": "MVP",
+    "FR-KB-05": "Future",
+    "FR-GUARD-02": "MVP",
+    "FR-GUARD-06": "MVP",
+    "FR-SLOT-01": "MVP",
+    "FR-SLOT-02": "MVP",
+    "FR-SLOT-03": "MVP",
+    "FR-SLOT-04": "MVP",
+    "FR-GUARD-03": "MVP",
+    "FR-HITL-01": "MVP",
+    "FR-HITL-02": "MVP",
+    "FR-HITL-03": "MVP",
+    "FR-HITL-04": "MVP",
+    "FR-GUARD-01": "MVP",
+    "FR-DASH-01": "MVP",
+    "FR-DASH-02": "Future",
+    "FR-DASH-03": "MVP",
+    "FR-GROUP-01": "Future",
+    "FR-WEB-01": "Future",
+    "FR-WEB-02": "Future",
+    "NFR-LOCAL-01": "MVP",
+    "NFR-SEC-01": "MVP",
+    "NFR-UX-01": "MVP",
+    "NFR-PRIV-01": "MVP",
+    "NFR-PRIV-02": "MVP",
+    "NFR-REL-01": "MVP",
+    "NFR-DX-01": "MVP",
+    "TC-STACK-01": "MVP",
+    "TC-STACK-02": "MVP",
+    "TC-PROTO-01": "MVP",
+    "TC-DATA-01": "MVP",
+    "TC-CAL-01": "MVP",
+    "TC-SEC-01": "MVP",
+    "TC-PURE-01": "MVP",
+    "TC-TEST-01": "MVP",
+    "TC-TEST-02": "MVP",
+    "TC-TEST-03": "MVP",
+    "BC-SCOPE-01": "MVP",
+    "BC-SCOPE-02": "MVP",
+    "BC-AGE-01": "MVP",
+    "BC-AGE-02": "Dropped",
+    "BC-FORMAT-01": "MVP",
+    "BC-SCHEDULE-01": "MVP",
+    "BC-PRICE-01": "MVP",
+    "BC-LESSON-01": "MVP",
+    "BC-LANG-01": "MVP",
+    "BC-BRAND-01": "MVP",
+    "BC-DEMO-01": "MVP"
+  },
+  "links": [
+    {
+      "id": "FR-INTAKE-01",
+      "specs": [
+        "openspec/specs/intake/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "lib/src/intake/first-lesson-brief.test.ts",
+        "lib/src/intake/next-field.test.ts",
+        "lib/src/intake/questions.test.ts",
+        "lib/src/intake/questions.test.ts",
+        "lib/src/intake/questions.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "packages/agent/src/claude-agent-model-port.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/bot/src/pipeline.test.ts",
+        "packages/bot/src/pipeline.test.ts",
+        "packages/bot/src/pipeline.test.ts",
+        "packages/bot/src/pipeline.test.ts",
+        "packages/db/src/leads.test.ts",
+        "packages/db/src/requests.test.ts",
+        "evals/cases/fr-intake-01.eval.ts"
+      ],
+      "recordings": []
+    },
+    {
+      "id": "FR-INTAKE-02",
+      "specs": [
+        "openspec/specs/intake/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "lib/src/intake/age.test.ts",
+        "lib/src/intake/age.test.ts",
+        "lib/src/intake/first-lesson-brief.test.ts",
+        "lib/src/intake/format.test.ts",
+        "lib/src/intake/format.test.ts",
+        "lib/src/intake/format.test.ts",
+        "lib/src/intake/format.test.ts",
+        "lib/src/intake/next-field.test.ts",
+        "lib/src/intake/next-field.test.ts",
+        "lib/src/intake/questions.test.ts",
+        "lib/src/intake/questions.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "packages/agent/src/claude-agent-model-port.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/system-prompt.test.ts",
+        "packages/agent/src/tools.test.ts",
+        "packages/bot/src/pipeline.test.ts",
+        "packages/bot/src/pipeline.test.ts",
+        "packages/bot/src/pipeline.test.ts",
+        "packages/bot/src/pipeline.test.ts",
+        "packages/db/src/requests.test.ts",
+        "evals/cases/fr-intake-01.eval.ts"
+      ],
+      "recordings": []
+    },
+    {
+      "id": "FR-INTAKE-06",
+      "specs": [
+        "openspec/specs/booking-hitl/spec.md",
+        "openspec/specs/intake/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "lib/src/intake/next-field.test.ts",
+        "lib/src/intake/next-field.test.ts",
+        "lib/src/intake/questions.test.ts",
+        "lib/src/intake/questions.test.ts",
+        "lib/src/intake/questions.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/system-prompt.test.ts",
+        "packages/agent/src/system-prompt.test.ts",
+        "packages/bot/src/pipeline.test.ts"
+      ],
+      "recordings": []
+    },
+    {
+      "id": "FR-INTAKE-07",
+      "specs": [
+        "openspec/specs/booking-hitl/spec.md",
+        "openspec/specs/dashboard/spec.md",
+        "openspec/specs/intake/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "lib/src/intake/questions.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/bot/src/pipeline.test.ts",
+        "packages/bot/src/pipeline.test.ts",
+        "packages/db/src/requests.test.ts"
+      ],
+      "recordings": []
+    },
+    {
+      "id": "FR-INTAKE-08",
+      "specs": [
+        "openspec/specs/booking-hitl/spec.md",
+        "openspec/specs/intake/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "lib/src/intake/state-machine.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "packages/bot/src/pipeline.test.ts",
+        "packages/bot/src/pipeline.test.ts",
+        "packages/db/src/leads.test.ts",
+        "packages/db/src/requests.test.ts",
+        "packages/db/src/requests.test.ts",
+        "evals/cases/fr-intake-01.eval.ts"
+      ],
+      "recordings": []
+    },
+    {
+      "id": "FR-GUARD-04",
+      "specs": [
+        "openspec/specs/intake/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "lib/src/intake/age.test.ts",
+        "lib/src/intake/age.test.ts",
+        "lib/src/intake/age.test.ts",
+        "lib/src/intake/age.test.ts",
+        "lib/src/intake/age.test.ts",
+        "lib/src/intake/age.test.ts",
+        "lib/src/intake/age.test.ts",
+        "lib/src/intake/copy.test.ts",
+        "lib/src/intake/copy.test.ts",
+        "lib/src/intake/questions.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/bot/src/pipeline.test.ts",
+        "packages/bot/src/pipeline.test.ts"
+      ],
+      "recordings": []
+    },
+    {
+      "id": "FR-GUARD-05",
+      "specs": [
+        "openspec/specs/intake/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/system-prompt.test.ts",
+        "packages/bot/src/pipeline.test.ts"
+      ],
+      "recordings": []
+    },
+    {
+      "id": "FR-FAQ-01",
+      "specs": [
+        "openspec/specs/kb-learning/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/system-prompt.test.ts",
+        "tests/integration/kb-learning/full-flow.test.ts",
+        "tests/integration/kb-learning/full-flow.test.ts",
+        "evals/cases/fr-faq-01.eval.ts",
+        "evals/cases/fr-guard-02.eval.ts"
+      ],
+      "recordings": []
+    },
+    {
+      "id": "FR-FAQ-02",
+      "specs": [
+        "openspec/specs/kb-learning/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/system-prompt.test.ts",
+        "packages/agent/src/system-prompt.test.ts",
+        "packages/agent/src/system-prompt.test.ts",
+        "tests/integration/kb-learning/full-flow.test.ts",
+        "tests/integration/kb-learning/full-flow.test.ts",
+        "evals/cases/fr-faq-02.eval.ts",
+        "evals/cases/fr-guard-02.eval.ts"
+      ],
+      "recordings": []
+    },
+    {
+      "id": "FR-KB-01",
+      "specs": [
+        "openspec/specs/kb-learning/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/bot/src/pipeline.test.ts",
+        "packages/bot/src/pipeline.test.ts",
+        "packages/db/src/questions.test.ts",
+        "packages/db/src/questions.test.ts",
+        "packages/db/src/schema.test.ts",
+        "packages/db/src/schema.test.ts",
+        "packages/db/src/schema.test.ts",
+        "packages/db/src/schema.test.ts",
+        "packages/db/src/schema.test.ts",
+        "packages/db/src/schema.test.ts",
+        "packages/db/src/schema.test.ts",
+        "tests/integration/kb-learning/full-flow.test.ts",
+        "tests/integration/kb-learning/full-flow.test.ts",
+        "tests/integration/kb-learning/full-flow.test.ts"
+      ],
+      "recordings": []
+    },
+    {
+      "id": "FR-KB-02",
+      "specs": [
+        "openspec/specs/dashboard/spec.md",
+        "openspec/specs/kb-learning/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "packages/db/src/questions.test.ts",
+        "tests/integration/kb-learning/full-flow.test.ts",
+        "tests/integration/kb-learning/full-flow.test.ts"
+      ],
+      "recordings": [
+        "docs/qa/kb-learning/manifest.json"
+      ]
+    },
+    {
+      "id": "FR-KB-03",
+      "specs": [
+        "openspec/specs/kb-learning/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "lib/src/kb/serialize-entry.test.ts",
+        "lib/src/kb/serialize-entry.test.ts",
+        "lib/src/kb/serialize-entry.test.ts",
+        "lib/src/kb/serialize-entry.test.ts",
+        "lib/src/kb/serialize-entry.test.ts",
+        "lib/src/kb/serialize-entry.test.ts",
+        "lib/src/kb/serialize-entry.test.ts",
+        "lib/src/kb/serialize-entry.test.ts",
+        "lib/src/kb/serialize-entry.test.ts",
+        "lib/src/kb/serialize-entry.test.ts",
+        "lib/src/kb/serialize-entry.test.ts",
+        "lib/src/kb/serialize-entry.test.ts",
+        "lib/src/kb/serialize-entry.test.ts",
+        "lib/src/kb/serialize-entry.test.ts",
+        "lib/src/kb/serialize-entry.test.ts",
+        "lib/src/kb/validate-answer.test.ts",
+        "lib/src/kb/validate-answer.test.ts",
+        "lib/src/kb/validate-answer.test.ts",
+        "lib/src/kb/validate-answer.test.ts",
+        "lib/src/kb/validate-answer.test.ts",
+        "lib/src/kb/validate-answer.test.ts",
+        "lib/src/kb/validate-answer.test.ts",
+        "lib/src/kb/validate-answer.test.ts",
+        "lib/src/kb/validate-answer.test.ts",
+        "packages/agent/src/kb-context.test.ts",
+        "packages/agent/src/kb-context.test.ts",
+        "packages/db/src/questions.test.ts",
+        "tests/integration/kb-learning/full-flow.test.ts",
+        "tests/integration/kb-learning/full-flow.test.ts",
+        "tests/integration/kb-learning/full-flow.test.ts"
+      ],
+      "recordings": [
+        "docs/qa/kb-learning/manifest.json"
+      ]
+    },
+    {
+      "id": "FR-KB-04",
+      "specs": [
+        "openspec/specs/kb-learning/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "packages/bot/src/question-drain.test.ts",
+        "packages/bot/src/question-drain.test.ts",
+        "packages/bot/src/question-drain.test.ts",
+        "packages/bot/src/question-drain.test.ts",
+        "packages/bot/src/question-drain.test.ts",
+        "packages/db/src/questions.test.ts",
+        "packages/db/src/questions.test.ts",
+        "tests/integration/kb-learning/full-flow.test.ts",
+        "tests/integration/kb-learning/full-flow.test.ts",
+        "tests/integration/kb-learning/full-flow.test.ts",
+        "tests/integration/kb-learning/full-flow.test.ts"
+      ],
+      "recordings": [
+        "docs/qa/kb-learning/manifest.json"
+      ]
+    },
+    {
+      "id": "FR-GUARD-02",
+      "specs": [
+        "openspec/specs/kb-learning/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "packages/agent/src/system-prompt.test.ts",
+        "packages/agent/src/system-prompt.test.ts",
+        "evals/cases/fr-guard-02.eval.ts"
+      ],
+      "recordings": []
+    },
+    {
+      "id": "FR-GUARD-06",
+      "specs": [
+        "openspec/specs/kb-learning/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "packages/agent/src/claude-agent-model-port.test.ts",
+        "packages/agent/src/tools.test.ts",
+        "packages/agent/src/tools.test.ts",
+        "packages/agent/src/tools.test.ts",
+        "packages/agent/src/tools.test.ts",
+        "packages/agent/src/tools.test.ts",
+        "packages/agent/src/tools.test.ts",
+        "packages/agent/src/tools.test.ts",
+        "evals/cases/fr-guard-02.eval.ts"
+      ],
+      "recordings": []
+    },
+    {
+      "id": "FR-SLOT-01",
+      "specs": [
+        "openspec/specs/slots/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "lib/src/booking/validate-preferences.test.ts",
+        "lib/src/booking/validate-preferences.test.ts",
+        "lib/src/booking/validate-preferences.test.ts",
+        "lib/src/booking/validate-preferences.test.ts",
+        "lib/src/booking/validate-preferences.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "lib/src/slots/grid.test.ts",
+        "lib/src/slots/propose.test.ts",
+        "lib/src/slots/subtract.test.ts",
+        "lib/src/slots/subtract.test.ts",
+        "lib/src/slots/subtract.test.ts",
+        "lib/src/slots/timezone.test.ts",
+        "lib/src/slots/timezone.test.ts",
+        "lib/src/slots/timezone.test.ts",
+        "lib/src/slots/timezone.test.ts",
+        "lib/src/slots/timezone.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/tools.test.ts",
+        "packages/agent/src/tools.test.ts",
+        "packages/bot/src/pipeline.test.ts",
+        "packages/bot/src/pipeline.test.ts",
+        "tests/integration/slots/round-trip.test.ts"
+      ],
+      "recordings": []
+    },
+    {
+      "id": "FR-SLOT-02",
+      "specs": [
+        "openspec/specs/slots/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "lib/src/intake/state-machine.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "lib/src/slots/hold.test.ts",
+        "lib/src/slots/hold.test.ts",
+        "lib/src/slots/hold.test.ts",
+        "lib/src/slots/hold.test.ts",
+        "lib/src/slots/hold.test.ts",
+        "lib/src/slots/propose.test.ts",
+        "lib/src/slots/propose.test.ts",
+        "lib/src/slots/propose.test.ts",
+        "lib/src/slots/propose.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/agent/src/system-prompt.test.ts",
+        "packages/bot/src/pipeline.test.ts",
+        "packages/bot/src/pipeline.test.ts",
+        "packages/bot/src/pipeline.test.ts",
+        "packages/db/src/bookings.test.ts",
+        "packages/db/src/bookings.test.ts",
+        "packages/db/src/schema.test.ts",
+        "packages/db/src/schema.test.ts",
+        "tests/integration/slots/bookings-lifecycle.test.ts",
+        "tests/integration/slots/bookings-lifecycle.test.ts",
+        "tests/integration/slots/bookings-lifecycle.test.ts"
+      ],
+      "recordings": []
+    },
+    {
+      "id": "FR-SLOT-03",
+      "specs": [
+        "openspec/specs/slots/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "lib/src/slots/widen.test.ts",
+        "lib/src/slots/widen.test.ts",
+        "lib/src/slots/widen.test.ts",
+        "lib/src/slots/widen.test.ts",
+        "lib/src/slots/widen.test.ts",
+        "lib/src/slots/widen.test.ts"
+      ],
+      "recordings": []
+    },
+    {
+      "id": "FR-SLOT-04",
+      "specs": [
+        "openspec/specs/slots/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "lib/src/slots/rank.test.ts",
+        "lib/src/slots/rank.test.ts",
+        "lib/src/slots/rank.test.ts",
+        "lib/src/slots/rank.test.ts",
+        "tests/integration/slots/round-trip.test.ts"
+      ],
+      "recordings": []
+    },
+    {
+      "id": "FR-GUARD-03",
+      "specs": [
+        "openspec/specs/booking-hitl/spec.md",
+        "openspec/specs/slots/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "lib/src/slots/grid.test.ts",
+        "lib/src/slots/grid.test.ts"
+      ],
+      "recordings": []
+    },
+    {
+      "id": "FR-HITL-01",
+      "specs": [
+        "openspec/specs/booking-hitl/spec.md",
+        "openspec/specs/dashboard/spec.md",
+        "openspec/specs/slots/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "tests/integration/booking-hitl/full-flow.test.ts"
+      ],
+      "recordings": [
+        "docs/qa/booking-hitl/manifest.json"
+      ]
+    },
+    {
+      "id": "FR-HITL-02",
+      "specs": [
+        "openspec/specs/booking-hitl/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "lib/src/booking/copy.test.ts",
+        "lib/src/booking/copy.test.ts",
+        "lib/src/booking/copy.test.ts",
+        "lib/src/booking/copy.test.ts",
+        "packages/bot/src/notification-drain.test.ts",
+        "packages/bot/src/notification-drain.test.ts",
+        "packages/bot/src/notification-drain.test.ts",
+        "packages/bot/src/notification-drain.test.ts",
+        "packages/db/src/bookings.test.ts",
+        "packages/db/src/bookings.test.ts",
+        "packages/db/src/bookings.test.ts",
+        "packages/db/src/find-by-request.test.ts",
+        "packages/db/src/find-by-request.test.ts",
+        "packages/db/src/notifications.test.ts",
+        "packages/db/src/notifications.test.ts",
+        "packages/db/src/notifications.test.ts",
+        "packages/db/src/notifications.test.ts",
+        "packages/db/src/requests.test.ts",
+        "packages/db/src/requests.test.ts",
+        "packages/db/src/requests.test.ts",
+        "packages/db/src/requests.test.ts",
+        "packages/db/src/schema.test.ts",
+        "packages/db/src/schema.test.ts",
+        "packages/db/src/schema.test.ts",
+        "packages/db/src/schema.test.ts",
+        "tests/integration/booking-hitl/full-flow.test.ts"
+      ],
+      "recordings": []
+    },
+    {
+      "id": "FR-HITL-03",
+      "specs": [
+        "openspec/specs/booking-hitl/spec.md",
+        "openspec/specs/dashboard/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "lib/src/booking/transitions.test.ts",
+        "lib/src/booking/transitions.test.ts",
+        "lib/src/booking/transitions.test.ts",
+        "lib/src/booking/transitions.test.ts",
+        "lib/src/booking/validate-admin-slots.test.ts",
+        "lib/src/booking/validate-admin-slots.test.ts",
+        "lib/src/booking/validate-admin-slots.test.ts",
+        "lib/src/booking/validate-admin-slots.test.ts",
+        "lib/src/booking/validate-admin-slots.test.ts",
+        "lib/src/intake/state-machine.test.ts",
+        "lib/src/slots/grid.test.ts",
+        "lib/src/slots/grid.test.ts",
+        "packages/agent/src/loop.test.ts",
+        "packages/bot/src/pipeline.test.ts",
+        "tests/integration/booking-hitl/full-flow.test.ts"
+      ],
+      "recordings": [
+        "docs/qa/booking-hitl/manifest.json"
+      ]
+    },
+    {
+      "id": "FR-HITL-04",
+      "specs": [
+        "openspec/specs/booking-hitl/spec.md",
+        "openspec/specs/intake/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "tests/integration/booking-hitl/full-flow.test.ts"
+      ],
+      "recordings": []
+    },
+    {
+      "id": "FR-GUARD-01",
+      "specs": [
+        "openspec/specs/booking-hitl/spec.md",
+        "openspec/specs/dashboard/spec.md",
+        "openspec/specs/slots/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "packages/agent/src/system-prompt.test.ts",
+        "packages/agent/src/tools.test.ts",
+        "packages/agent/src/tools.test.ts",
+        "packages/agent/src/tools.test.ts",
+        "packages/agent/src/tools.test.ts",
+        "packages/agent/src/tools.test.ts",
+        "packages/agent/src/tools.test.ts",
+        "packages/agent/src/tools.test.ts",
+        "evals/cases/fr-guard-01.eval.ts"
+      ],
+      "recordings": []
+    },
+    {
+      "id": "FR-DASH-01",
+      "specs": [
+        "openspec/specs/booking-hitl/spec.md",
+        "openspec/specs/dashboard/spec.md",
+        "openspec/specs/intake/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "packages/bot/src/pipeline.test.ts",
+        "packages/bot/src/pipeline.test.ts",
+        "packages/bot/src/pipeline.test.ts"
+      ],
+      "recordings": [
+        "docs/qa/dashboard/manifest.json"
+      ]
+    },
+    {
+      "id": "FR-DASH-03",
+      "specs": [
+        "openspec/specs/dashboard/spec.md"
+      ],
+      "planned": true,
+      "tests": [
+        "lib/src/dashboard/hall-status.test.ts",
+        "lib/src/dashboard/hall-status.test.ts",
+        "lib/src/dashboard/hall-status.test.ts",
+        "lib/src/dashboard/hall-status.test.ts",
+        "lib/src/dashboard/hall-status.test.ts",
+        "lib/src/dashboard/hall-status.test.ts",
+        "lib/src/dashboard/week-grid.test.ts",
+        "lib/src/dashboard/week-grid.test.ts"
+      ],
+      "recordings": [
+        "docs/qa/dashboard/manifest.json"
+      ]
+    }
+  ],
+  "failures": [],
+  "warnings": [
+    {
+      "check": "recording-evidence",
+      "msg": "FR-INTAKE-01 is not referenced by any recording manifest under docs/qa/"
+    },
+    {
+      "check": "recording-evidence",
+      "msg": "FR-INTAKE-02 is not referenced by any recording manifest under docs/qa/"
+    },
+    {
+      "check": "recording-evidence",
+      "msg": "FR-INTAKE-06 is not referenced by any recording manifest under docs/qa/"
+    },
+    {
+      "check": "recording-evidence",
+      "msg": "FR-INTAKE-07 is not referenced by any recording manifest under docs/qa/"
+    },
+    {
+      "check": "recording-evidence",
+      "msg": "FR-INTAKE-08 is not referenced by any recording manifest under docs/qa/"
+    },
+    {
+      "check": "recording-evidence",
+      "msg": "FR-GUARD-04 is not referenced by any recording manifest under docs/qa/"
+    },
+    {
+      "check": "recording-evidence",
+      "msg": "FR-GUARD-05 is not referenced by any recording manifest under docs/qa/"
+    },
+    {
+      "check": "recording-evidence",
+      "msg": "FR-FAQ-01 is not referenced by any recording manifest under docs/qa/"
+    },
+    {
+      "check": "recording-evidence",
+      "msg": "FR-FAQ-02 is not referenced by any recording manifest under docs/qa/"
+    },
+    {
+      "check": "recording-evidence",
+      "msg": "FR-KB-01 is not referenced by any recording manifest under docs/qa/"
+    },
+    {
+      "check": "recording-evidence",
+      "msg": "FR-GUARD-02 is not referenced by any recording manifest under docs/qa/"
+    },
+    {
+      "check": "recording-evidence",
+      "msg": "FR-GUARD-06 is not referenced by any recording manifest under docs/qa/"
+    },
+    {
+      "check": "recording-evidence",
+      "msg": "FR-SLOT-01 is not referenced by any recording manifest under docs/qa/"
+    },
+    {
+      "check": "recording-evidence",
+      "msg": "FR-SLOT-02 is not referenced by any recording manifest under docs/qa/"
+    },
+    {
+      "check": "recording-evidence",
+      "msg": "FR-SLOT-03 is not referenced by any recording manifest under docs/qa/"
+    },
+    {
+      "check": "recording-evidence",
+      "msg": "FR-SLOT-04 is not referenced by any recording manifest under docs/qa/"
+    },
+    {
+      "check": "recording-evidence",
+      "msg": "FR-GUARD-03 is not referenced by any recording manifest under docs/qa/"
+    },
+    {
+      "check": "recording-evidence",
+      "msg": "FR-HITL-02 is not referenced by any recording manifest under docs/qa/"
+    },
+    {
+      "check": "recording-evidence",
+      "msg": "FR-HITL-04 is not referenced by any recording manifest under docs/qa/"
+    },
+    {
+      "check": "recording-evidence",
+      "msg": "FR-GUARD-01 is not referenced by any recording manifest under docs/qa/"
+    }
+  ]
+}

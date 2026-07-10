@@ -25,3 +25,10 @@ venv/
 target/
 bin/
 obj/
+coverage/
+**/raw/
+*.db
+*.db-shm
+*.db-wal
+secrets/
+.demo

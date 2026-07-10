@@ -1,0 +1,66 @@
+{
+  "generatedBy": "scripts/check-trajectory.mjs",
+  "slices": [
+    {
+      "slice": "2026-07-04-slots",
+      "reviewEvidence": "clean",
+      "trailerCommits": 17,
+      "libDomains": [
+        "src"
+      ],
+      "processComplete": true
+    },
+    {
+      "slice": "2026-07-06-dashboard",
+      "reviewEvidence": "clean",
+      "trailerCommits": 2,
+      "libDomains": [],
+      "processComplete": true
+    },
+    {
+      "slice": "2026-07-06-intake",
+      "reviewEvidence": "clean",
+      "trailerCommits": 23,
+      "libDomains": [
+        "src"
+      ],
+      "processComplete": true
+    },
+    {
+      "slice": "2026-07-07-booking-hitl",
+      "reviewEvidence": "clean",
+      "trailerCommits": 36,
+      "libDomains": [
+        "src"
+      ],
+      "processComplete": true
+    },
+    {
+      "slice": "2026-07-07-kb-learning",
+      "reviewEvidence": "clean",
+      "trailerCommits": 15,
+      "libDomains": [
+        "src"
+      ],
+      "processComplete": true
+    }
+  ],
+  "overlaps": [
+    {
+      "domain": "src",
+      "slices": [
+        "2026-07-04-slots",
+        "2026-07-06-intake",
+        "2026-07-07-booking-hitl",
+        "2026-07-07-kb-learning"
+      ]
+    }
+  ],
+  "failures": [],
+  "warnings": [
+    {
+      "check": "in-scope",
+      "msg": "lib/src/ modified by 4 slices (2026-07-04-slots, 2026-07-06-intake, 2026-07-07-booking-hitl, 2026-07-07-kb-learning) — review for scope drift"
+    }
+  ]
+}
